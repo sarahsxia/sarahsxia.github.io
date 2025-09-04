@@ -12,7 +12,7 @@ header:
    
 ---
 
-# Features
+## Features
 
 * **Precise Fluid Delivery (10–20 mL syringes).** Compatible with multiple syringe sizes, ensuring controlled flow rates and repeatable dosing.  
 * **User-Friendly Controls.** Includes start/pause button, forward/reverse jog buttons, and LED indicators (green = running, yellow = paused, red = empty).  
@@ -20,7 +20,9 @@ header:
 * **Safety Enclosure.** PLA housing protects electronics from finger contact and water intrusion.  
 * **Replaceable Syringes.** Quick setup with adjustable carriage supports for various syringe diameters.  
 
-# Bill of Materials (Off-the-Shelf Parts)
+---
+
+## Bill of Materials (Off-the-Shelf Parts)
 
 | **Category**         | **Components** |
 |-----------------------|----------------|
@@ -31,7 +33,29 @@ header:
 
 ---
 
-# Operation
+## 3D-Printed Parts
+
+| Component | Function |
+|-----------|----------|
+| Case Top | Covers electronics enclosure |
+| Case | Houses breadboard, Arduino, wiring |
+| Carriage | Holds syringe plunger, transfers motion |
+| End Support | Provides alignment and stability |
+| Left End Support | Secures syringe flange |
+| Motor Mounting Plate | Anchors stepper motor |
+| Right End Syringe Support | Holds syringe tip securely |  
+
+---
+
+# CAD Model
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e4817c2c9a4c46ed?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+{% include gallery caption="Syringe Pump CAD Assembly" %}
+
+---
+
+## Operation
 
 1. Plug in the power supply.  
 2. Mount syringe(s) into the support and adjust carriage to contact plunger.  
@@ -43,86 +67,10 @@ header:
 
 ---
 
-# CAD Model
+## Arduino Code
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e4817c2c9a4c46ed?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+For full functionality, the Arduino program is provided in a separate file:  
 
-{% include gallery caption="Syringe Pump project" %}
-
-# Arduino Code
-
-```cpp
-#include <AccelStepper.h>
-
-// Pin assignments
-const int dirPin = 2;
-const int stepPin = 3;
-const int enablePin = 8;
-
-const int forwardBtn = 4;
-const int reverseBtn = 5;
-const int startBtn = 6;
-const int limitSwitch = 7;
-
-const int ledGreen = 9;
-const int ledYellow = 10;
-const int ledRed = 11;
-
-AccelStepper stepper(AccelStepper::DRIVER, stepPin, dirPin);
-
-bool running = false;
-
-void setup() {
-  pinMode(forwardBtn, INPUT_PULLUP);
-  pinMode(reverseBtn, INPUT_PULLUP);
-  pinMode(startBtn, INPUT_PULLUP);
-  pinMode(limitSwitch, INPUT_PULLUP);
-
-  pinMode(ledGreen, OUTPUT);
-  pinMode(ledYellow, OUTPUT);
-  pinMode(ledRed, OUTPUT);
-  pinMode(enablePin, OUTPUT);
-
-  digitalWrite(enablePin, LOW); // Enable motor driver
-  stepper.setMaxSpeed(1000);    // steps/sec
-  stepper.setAcceleration(200); // steps/sec^2
-}
-
-void loop() {
-  // Start/Pause toggle
-  if (digitalRead(startBtn) == LOW) {
-    running = !running;
-    delay(300); // debounce
-  }
-
-  // LED logic
-  if (digitalRead(limitSwitch) == LOW) {
-    digitalWrite(ledRed, HIGH);
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, LOW);
-    running = false;
-  } else if (running) {
-    digitalWrite(ledGreen, HIGH);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, LOW);
-    stepper.setSpeed(200); // flow rate = speed
-    stepper.runSpeed();
-  } else {
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, HIGH);
-    digitalWrite(ledRed, LOW);
-  }
-
-  // Manual jogging
-  if (digitalRead(forwardBtn) == LOW) {
-    stepper.move(100);
-    stepper.runToPosition();
-  }
-  if (digitalRead(reverseBtn) == LOW) {
-    stepper.move(-100);
-    stepper.runToPosition();
-  }
-}
-
+[📂 syringe_pump.ino](/assets/syringe_pump.ino)
 
 
