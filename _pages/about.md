@@ -34,4 +34,4 @@ Sarah has hands-on experience with both research and manufacturing environments.
   * Laser cutting  
   * 3D printing (FFF)
 
-#<img src="/assets/Headshot.jpg" alt="Sarah Xia" style="width:200px;"/>
+#<img src="/assets/img/Headshot.jpg" alt="Sarah Xia" style="width:200px;"/>
