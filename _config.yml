@@ -16,7 +16,7 @@ title_separator          : "-"
 subtitle                 : "About me"
 name                     : &name "Sarah Xia" # &name is a YAML anchor which can be *referenced later
 description              : &description "Personal Project Repository"
-url                      : https://sarahsxia.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sarahsxia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -103,7 +103,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "sarahsxia.github.io"
+      url: "https://sarahsxia.github.io"
     - label: "Instagram"
       #icon: "fab fa-fw fa-instagram"
       #url: "https://www.instagram.com/dr.dflo"
@@ -114,7 +114,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "sarahsxia.github.io"
+      url: "https://sarahsxia.github.io"
     - label: "Instagram"
       #icon: "fab fa-fw fa-instagram"
      # url: "https://www.instagram.com/dr.dflo"
