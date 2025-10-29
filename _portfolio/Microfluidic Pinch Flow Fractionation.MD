@@ -16,7 +16,7 @@ This relationship can be described by Equation (1), where Y₀ is the particle d
 
 Y₀ = (wₚ − D/2) × (w_b / wₚ)    (1)
 
-![Resin printed mold](/assets/img/Resin%20printed%20mold.png)
+![Resin printed mold]({{ '/assets/img/Resin%20printed%20mold.png' | relative_url }})
 
 *Figure 1. Resin printed microfluidic device mold.*
 
