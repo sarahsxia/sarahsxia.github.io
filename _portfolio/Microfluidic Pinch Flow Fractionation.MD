@@ -27,13 +27,17 @@ This relationship can be described by Equation&nbsp;(1), where <em>Y</em><sub>0<
 
 ##### Design
 
-This microfluidic device was designed from an asymmetric approach. The goal was to have a total of three fluid outlets: small particle, large particle, and buffer fluid. Since calculated <em>Y</em><sub>0</sub> values of the particles were close to each other, the fluid exits to collect them were clustered at the top. The goal was to have the highest fluid flow at the path of the buffer fluid, and the lowest fluid flow at the path of the small particle.
+This microfluidic device was designed from an asymmetric approach. The goal was to have a total of three fluid outlets: small particle, large particle, and buffer fluid. Since calculated <em>Y</em><sub>0</sub> values of the particles were close to each other, the fluid exits to collect them were clustered along the top (e.g., 37.0–37.5&nbsp;mm for 125–150&nbsp;µm vs. 30.0–31.5&nbsp;mm for 425–500&nbsp;µm). The goal was to have the highest fluid flow at the path of the buffer fluid, and the lowest fluid flow at the path of the small particle. The device also includes triangles of equal volume at the exits to catch fluid flow and stray particles due to potential turbulent effects.
+
+With a pinched section of 5.87&nbsp;mm and a broad section of 15&nbsp;mm&nbsp;×&nbsp;40&nbsp;mm, the two streams are allowed to stabilize within the pinch section and amplify in the broad section. In addition, the channels being 1&nbsp;mm wide (≈2× the largest particle) helps retain laminar flow while limiting potential clogging.
+
+To minimize variables, the path widths were kept the same while the length varied. Therefore, under these circumstances the longest path had the greatest resistance and collected the least flow along the top, to catch the small particle. As a byproduct of this theory, the middle channel is a medium length and the bottom channel is the shortest length, to collect an ascending amount of fluid. The large particle is expected to exit through the middle channel due to the position calculation from Equation&nbsp;(1). The outlets were arranged to the right of the broad section, and allow for three nozzle heads (11&nbsp;mm diameter) to fit. In addition, there must be ≥3&nbsp;mm from the printed device to the outside edge of the mold to achieve structural integrity.
+
+The channel lengths are 94.3&nbsp;mm, 61.37&nbsp;mm, and 22.25&nbsp;mm, which directs flow into each path at the intended collection locations.
 
 ![Resin printed mold]({{ '/assets/img/Resin%20printed%20mold.png' | relative_url }})
 
 *Figure 1. Resin printed microfluidic device mold.*
-
-To minimize variables, the path widths were kept the same while the length varied. Therefore, under these circumstances the longest path had the greatest resistance and collected the least flow along the top, to catch the small particle. As a byproduct of this theory, the middle channel is a medium length and the bottom channel is the shortest length, to collect an ascending amount of fluid. The large particle is expected to exit through the middle channel due to the position calculation from Equation&nbsp;(1). The outlets were arranged to the right of the broad section, and allow for three nozzle heads (11&nbsp;mm diameter) to fit. In addition, there must be ≥3&nbsp;mm from the printed device to the outside edge of the mold to achieve structural integrity.
 
 ---
 
@@ -43,11 +47,13 @@ This microfluidic device was created on a bottom-up resin printer. The support a
 
 It’s also important to consider the post-processing of the device. Since the resin will be used as a mold, any absorbed IPA can potentially influence the PDMS. Therefore, the maximum single-time wash period is 5&nbsp;minutes, and the maximum total wash time is 15&nbsp;minutes. The device should be allowed to dry completely between washes. The mold should then be cured for 60&nbsp;seconds under UV light with no heat.
 
+Before molding, the user should check that there are no debris or deformities on the inside of the cured mold. Then, the supports can be removed, and the user can create the final device. Prior to printing, the resin mold is coated with parylene. This is an important step to consider because 3D-printed resin is curable by laser, but PDMS uses a chemical curing method. Therefore, if there is uncured resin on the surface of the mold and it comes into contact with and diffuses into the PDMS, the PDMS will not cure, causing a defective product.
+
 ![Casted device]({{ '/assets/img/Casted%20device.png' | relative_url }})
 
 *Figure 2. Casted microfluidic device.*
 
-Before molding, the user should check that there are no debris or deformities on the inside of the cured mold. Then, the supports can be removed, and the user can create the final device. Since PDMS molding instructions are available online, they will not be included as part of this page.
+Since PDMS molding instructions are available online, they will not be included as part of this page.
 
 ![Plasma treating of PDMS mold]({{ '/assets/img/Plasma%20treating.jpg' | relative_url }})
 
@@ -62,6 +68,8 @@ Resin printing was selected to create the mold for the microfluidic devices beca
 The same theory of pinched fractional flow in microfluidic devices can be applied to separate a higher number of particles. This device design could be scaled to have more outlets, placed at the calculated positions along the broad section to collect streams. Since the base principle relies on the difference of position and resistance of the channels, more particles can be incorporated into the separation process by rearranging the channels but keeping the current broad section, channel widths, and flow setup.
 
 If a scale-up or scale-down is required, it’s important to monitor the flow regime to retain laminar flow (<em>Re</em> ≪ 1). Another limit to the scale-up or scale-down of pinched fractional flow in this microfluidic device is that the channel width (currently 1&nbsp;mm) should be 1.2–1.5× larger than the largest particle. This limits the potential of particles clogging in the inlet and outlet channels as well as turbulent flow.
+
+For an identical-particle next iteration, I would change the device height from 1.5&nbsp;mm to 0.75&nbsp;mm, decrease channel width from 1&nbsp;mm to 0.75&nbsp;mm, increase the broad-section length from 15&nbsp;mm to 20&nbsp;mm, and target channel lengths of approximately 40&nbsp;mm, 30&nbsp;mm, and 20&nbsp;mm to promote flow development and minimize turbulence.
 
 ---
 
