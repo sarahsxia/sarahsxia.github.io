@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/Headshot.jpg"
-  bio              : "Chemical Engineering undergrad at Vanderbilt University, seeking a career in the energy storage industry. I have experience in battery manufacturing and materials research, with interests in scaling technologies for next-generation energy storage."
+  bio              : "Chemical Engineering undergraduate at Vanderbilt University, with interests in materials processing and manufacturing."
   location         : "Nashville, TN"
   links:
     - label: "GitHub"
