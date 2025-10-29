@@ -14,10 +14,10 @@ Effective particle separation is difficult to achieve at the micrometer scale. T
 
 The device performs separation based on the theory of pinch flow fractionation (PFF). Pinch flow fractionation works by pinching together fluid streams with and without particles, causing the particle path in the broad segment to follow the linear amplification of flow [1]. The core principle behind this is laminar flow, the dominant flow regime in microfluidic devices.
 
-This relationship can be described by Equation&nbsp;(1), where <em>Y</em><sub>0</sub> is the particle destination along the broad segment, <em>w</em><sub>p</sub> is the width of the pinched point, <em>w</em><sub>b</sub> is the width of the broad section, and <em>D</em> is the particle diameter:
+This relationship can be described by Equation&nbsp;(1), where <em>Y</em><sub>0</sub> is the particle destination along the broad segment, <em>w</em><sub>p</sub> is the width of the pinched point, <em>w</em><sub>b</em> is the width of the broad section, and <em>D</em> is the particle diameter:
 
 <p align="center">
-<em>Y</em><sub>0</sub> = ( <em>w</em><sub>p</sub> − <em>D</em>/2 ) × ( <em>w</em><sub>b</sub> / <em>w</em><sub>p</sub> ) &nbsp; (1)
+<em>Y</em><sub>0</sub> = ( <em>w</em><sub>p</sub> − <em>D</em>/2 ) × ( <em>w</em><sub>b</em> / <em>w</em><sub>p</sub> ) &nbsp; (1)
 </p>
 
 ![Resin printed mold]({{ '/assets/img/Resin%20printed%20mold.png' | relative_url }})
@@ -40,15 +40,21 @@ To minimize variables, the path widths were kept the same while the length varie
 
 ##### CAD Model
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e4817c2c9a4c46ed?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811fa229e6e54e25355" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 {% include gallery caption="Microfluidic PFF CAD Assembly" %}
 
 ---
 
-##### Design sketch (PDF)
+##### Design sketch
 
-[Design sketch (PDF)]({{ '/assets/img/Sketch.pdf' | relative_url }})
+<p align="center">
+  <img src="{{ '/assets/img/Sketch.pdf' | relative_url }}" alt="Design sketch preview">
+</p>
+
+*Figure 4. Sketch of uFluidic device design showing critical dimensions of channels and device.*
+
+[Download the design sketch (PDF)]({{ '/assets/img/Sketch.pdf' | relative_url }})
 
 ---
 
@@ -79,4 +85,4 @@ If a scale-up or scale-down is required, it’s important to monitor the flow re
 ##### References
 
 [1] Yamada et&nbsp;al., *Analytical Chemistry* (2004). <https://pubs.acs.org/doi/10.1021/ac049863r>  
-[2] Kim et&nbsp;al., *Frontiers in Microbiology* (2023). <https://pmc.ncbi.nlm.nih.gov/articles/PMC10415021/>
+[2] Esan et&nbsp;al., *National Library of Medicine* (2023). <https://pmc.ncbi.nlm.nih.gov/articles/PMC10415021/>
