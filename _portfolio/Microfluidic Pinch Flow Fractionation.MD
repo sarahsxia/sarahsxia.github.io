@@ -40,7 +40,8 @@ To minimize variables, the path widths were kept the same while the length varie
 
 ##### CAD Model
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e4817c2c9a4c46ed?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811fa229e6e54e25355" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
 
 {% include gallery caption="Microfluidic PFF CAD Assembly" %}
 
@@ -48,15 +49,8 @@ To minimize variables, the path widths were kept the same while the length varie
 
 ##### Design sketch
 
-<div align="center">
-  <object data="{{ '/assets/img/Sketch.pdf' | relative_url }}" type="application/pdf" width="100%" height="600">
-    <a href="{{ '/assets/img/Sketch.pdf' | relative_url }}">Open the design sketch (PDF)</a>
-  </object>
-</div>
-
-*Figure 3. Sketch of uFluidic device design showing critical dimensions of channels and device.*
-
 [Download the design sketch (PDF)]({{ '/assets/img/Sketch.pdf' | relative_url }})
+*Sketch of microfluidic device showing critical dimensions of channels and device.*
 
 ---
 
