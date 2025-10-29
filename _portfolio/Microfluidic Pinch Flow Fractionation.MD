@@ -14,14 +14,10 @@ Effective particle separation is difficult to achieve at the micrometer scale. T
 
 The device performs separation based on the theory of pinch flow fractionation (PFF). Pinch flow fractionation works by pinching together fluid streams with and without particles, causing the particle path in the broad segment to follow the linear amplification of flow [1]. The core principle behind this is laminar flow, the dominant flow regime in microfluidic devices.
 
-This relationship can be described by Equation&nbsp;(1), where *Y*<sub>0</sub> is the particle destination along the broad segment, *w*<sub>p</sub> is the width of the pinched point, *w*<sub>b</sub> is the width of the broad section, and *D* is the particle diameter:
+This relationship can be described by Equation&nbsp;(1), where <em>Y</em><sub>0</sub> is the particle destination along the broad segment, <em>w</em><sub>p</sub> is the width of the pinched point, <em>w</em><sub>b</sub> is the width of the broad section, and <em>D</em> is the particle diameter:
 
 <p align="center">
-
-$$
-Y_0 = \left(w_p - \frac{D}{2}\right)\,\frac{w_b}{w_p} \tag{1}
-$$
-
+<em>Y</em><sub>0</sub> = ( <em>w</em><sub>p</sub> − <em>D</em>/2 ) × ( <em>w</em><sub>b</sub> / <em>w</em><sub>p</sub> ) &nbsp; (1)
 </p>
 
 Bacteria enumeration is a primary health hazard in food processing and storage, and it’s important for food safety inspection and environmental samples (such as drinking water) to extract live bacteria for further study. One study applied PFF in a spiral microfluidic device to separate bacterial cells in meat swab samples and achieved an average recovery efficiency of 80% for bacterial cells [2]. This method increased test speed and preserved cell viability compared to traditional filtering and centrifugation methods, which often cause clogging and cell death.
@@ -36,7 +32,7 @@ Bacteria enumeration is a primary health hazard in food processing and storage, 
 
 ##### Design
 
-This microfluidic device was designed from an asymmetric approach. The goal was to have a total of three fluid outlets: small particle, large particle, and buffer fluid. Since calculated *Y*<sub>0</sub> values of the particles were close to each other, the fluid exits to collect them were clustered at the top. The goal was to have the highest fluid flow at the path of the buffer fluid, and the lowest fluid flow at the path of the small particle.
+This microfluidic device was designed from an asymmetric approach. The goal was to have a total of three fluid outlets: small particle, large particle, and buffer fluid. Since calculated <em>Y</em><sub>0</sub> values of the particles were close to each other, the fluid exits to collect them were clustered at the top. The goal was to have the highest fluid flow at the path of the buffer fluid, and the lowest fluid flow at the path of the small particle.
 
 To minimize variables, the path widths were kept the same while the length varied. Therefore, under these circumstances the longest path had the greatest resistance and collected the least flow along the top, to catch the small particle. As a byproduct of this theory, the middle channel is a medium length and the bottom channel is the shortest length, to collect an ascending amount of fluid. The large particle is expected to exit through the middle channel due to the position calculation from Equation&nbsp;(1). The outlets were arranged to the right of the broad section, and allow for three nozzle heads (11&nbsp;mm diameter) to fit. In addition, there must be ≥3&nbsp;mm from the printed device to the outside edge of the mold to achieve structural integrity.
 
@@ -64,7 +60,7 @@ Resin printing was selected to create the mold for the microfluidic devices beca
 
 The same theory of pinched fractional flow in microfluidic devices can be applied to separate a higher number of particles. This device design could be scaled to have more outlets, placed at the calculated positions along the broad section to collect streams. Since the base principle relies on the difference of position and resistance of the channels, more particles can be incorporated into the separation process by rearranging the channels but keeping the current broad section, channel widths, and flow setup.
 
-If a scale-up or scale-down is required, it’s important to monitor the flow regime to retain laminar flow (*Re* ≪ 1). Another limit to the scale-up or scale-down of pinched fractional flow in this microfluidic device is that the channel width (currently 1&nbsp;mm) should be 1.2–1.5× larger than the largest particle. This limits the potential of particles clogging in the inlet and outlet channels as well as turbulent flow.
+If a scale-up or scale-down is required, it’s important to monitor the flow regime to retain laminar flow (<em>Re</em> ≪ 1). Another limit to the scale-up or scale-down of pinched fractional flow in this microfluidic device is that the channel width (currently 1&nbsp;mm) should be 1.2–1.5× larger than the largest particle. This limits the potential of particles clogging in the inlet and outlet channels as well as turbulent flow.
 
 ---
 
