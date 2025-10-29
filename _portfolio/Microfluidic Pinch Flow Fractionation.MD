@@ -1,6 +1,8 @@
 ---
 title: "Microfluidic Pinch Flow Fractionation"
 excerpt: "A resin-printed microfluidic device for particle separation using pinch flow fractionation (PFF) principles."
+header:
+  teaser: /assets/img/Casted device.png
 ---
 
 ##### Introduction
