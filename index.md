@@ -8,8 +8,9 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Chemical Engineering undergrad at Vanderbilt University, seeking a career in the energy storage industry. I have experience in battery manufacturing and materials research, with interests in scaling technologies for next-generation energy storage."
+excerpt: "Current undergraduate student studying Chemical Engineering at Vanderbilt University. This page serves as a portfolio for my projects in the Digital Fabrication minor."
 feature_row:
+
 
   - image_path: assets/img/Syringe Pump.png
     alt: "Syringe Pump"
