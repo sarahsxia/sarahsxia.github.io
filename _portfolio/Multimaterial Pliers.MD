@@ -1,5 +1,5 @@
 ---
-title: "Multimaterial Print-in-Place Pliers"
+title: "Multimaterial Pliers"
 excerpt: "A dual-material 3D printed plier that uses a flexible TPU core and rigid PLA jaws and handles."
 header:
   teaser: /assets/img/Plier_header.png
