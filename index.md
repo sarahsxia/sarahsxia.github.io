@@ -18,10 +18,10 @@ feature_row:
     alt: "Microfluidic Pinch Flow Fractionation"
     title: "Microfluidic Pinch Flow Fractionation"
     excerpt: "Resin-printed microfluidic device for size-based particle separation using PFF."
-  - image_path: assets/img/Plier_header.png
-      alt: "Multimaterial Pliers"
-      title: "Multimaterial Pliers"
-      excerpt: "Dual-material pliers with rigid PLA jaws and handles and a flexible TPU centerpiece."
+  - image_path: "/assets/img/Plier_header.png"
+    alt: "Multimaterial Print-in-Place Pliers"
+    title: "Multimaterial Print-in-Place Pliers"
+    excerpt: "Dual-material pliers with rigid PLA jaws and handles and a flexible TPU centerpiece."
 ---
 
 {% include feature_row %}
