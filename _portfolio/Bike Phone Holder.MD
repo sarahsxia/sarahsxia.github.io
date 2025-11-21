@@ -2,13 +2,13 @@
 title: "Bike Phone Holder"
 excerpt: "Phone holder prototype for a bike handle using top-down modeling and a spring–ball detent mechanism."
 header:
-  teaser: /assets/img/Side-vertical.png
+  teaser: /assets/img/Phone holder render.png
 ---
 
 ##### Top-down modeling
 This phone holder prototype leverages a design process called top-down modeling, which begins with the overall assembly in mind. The starting concept of this project was a phone holder with an internal mechanism that would be fit for use on a bike handle. I sized components together physically so that it would make sense for the user of this tool, and rely on common mechanical parts for assembly. The critical measurements in the first step of this process were the bike handle, phone dimensions, and sizing an internal mechanism for rotation from available parts ( ball bearings and springs).
 
-![Phone holder in render]({{ '/assets/img/Phone holder in render.png' | relative_url }})
+![Phone holder in render]({{ '/assets/img/Phone in holder render.png' | relative_url }})
 
 ---
 
@@ -53,7 +53,7 @@ o	Lock with hex nut
 
 ##### Final prototype
 ![Side-vertical]({{ '/assets/img/Side-vertical.png' | relative_url }})  
-![Back-vertical]({{ '/assets/img/Back-vertical.png' | relative_url }})  
+![Back-vertical]({{ '/assets/img/Back_vertical.png' | relative_url }})  
 ![Back-horizontal]({{ '/assets/img/Back-horizontal.png' | relative_url }})  
 
 ![Phone holder demo]({{ '/assets/img/Phone holder demo.gif' | relative_url }})
