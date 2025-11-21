@@ -2,7 +2,7 @@
 title: "Bike Phone Holder"
 excerpt: "Phone holder prototype for a bike handle using top-down modeling and a spring–ball detent mechanism."
 header:
-  teaser: /assets/img/Phone in holder render.png
+  teaser: /assets/img/Side-vertical.png
 ---
 
 ##### Top-down modeling
