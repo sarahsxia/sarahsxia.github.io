@@ -22,7 +22,7 @@ feature_row:
     alt: "Multimaterial Pliers"
     title: "Multimaterial Pliers"
     excerpt: "Dual-material pliers with rigid PLA jaws and handles and a flexible TPU centerpiece."
-  - image_path: "/assets/img/Phone in holder render.png"
+  - image_path: "/assets/img/Side-vertical.png"
     alt: "Bike Phone Holder"
     title: "Bike Phone Holder"
     excerpt: "3D-printed bike-mount phone holder featuring a spring-loaded detent rotation mechanism."
