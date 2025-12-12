@@ -9,7 +9,7 @@ Powder bed fusion (PBF) is an additive manufacturing technology that builds part
 
 ##### Nylon assembly 						Aluminum assembly (AlSi10Mg)
 
-[assets/GDv5nylon.png]					[assets/GDv5alum.png]
+![Nylon Assembly]({{ '/assets/GDv5nylon.png' | relative_url }})					![Aluminum Assembly]({{ '/assets/GDv5alum.png' | relative_url }})
 
 3D printing and generative design work hand in hand: generative design creates organic geometries and nontraditional structures, and 3D printing makes it possible to manufacture them at a marketable cost without traditional tooling. There have been multiple applications in the automotive industry, especially since the partnership between General Motors and Autodesk. In 2018, General Motors redesigned a seat bracket from eight separate components into a single component using generative design and manufactures the part by 3D printing [1]. The new part is 40% lighter and 20% stronger than the original, showcasing the strengths of this combination of technologies, specifically in performance and part consolidation. 
 
@@ -23,7 +23,7 @@ Three materials were explored using the unrestricted manufacturing method in Fus
 
 ##### Prototype – Aluminum outcome printed in nylon
 
-[assets/img/GDv4(1).png] [assets/img/GDv4(2).png] [assets/img/GDv4(2).png]
+![Prototype view 1]({{ '/assets/img/GDv4(1).png' | relative_url }}) ![Prototype view 2]({{ '/assets/img/GDv4(2).png' | relative_url }}) ![Prototype view 2]({{ '/assets/img/GDv4(2).png' | relative_url }})
 
 My printed prototype is the metal version of that iteration, as a mockup of the manufactured part. However, the pictured part did not fit on the truck, so the final iteration is different, mainly in the centerpiece placement. Originally, the centerpiece was aligned with the pivot cup center; now it is shifted forward with a larger inner cutout. This change lets the part sit in the pivot cup and swing over the kingpin, which the earlier, smaller cutout and original location did not allow. 
 
@@ -31,27 +31,26 @@ The structural outcomes for nylon and aluminum are dramatically different. In th
 
 ##### Nylon CAD model
 
-[link: https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b60281120729734ed72e35b]
+<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b60281120729734ed72e35b" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 In the aluminum outcome, the truck has more open space and distinct joints where forces intersect, making it easier to interpret the mechanical strengths and weaknesses of the structure and to visualize stress paths.
 
 ##### Aluminum CAD model
 
-[link: https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b6028113587e9ac0a321402]
+<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b6028113587e9ac0a321402" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 As additive manufacturing becomes more commercialized, exponentially more geometries can be produced for high-performance products in high-performance industries (automotive, aerospace, etc.). Generative design can enable greater creativity and faster design iteration cycles than a traditional workflow but require a lot more iterations until the final product. Evaluating these designs still require experienced engineers and physical testing to validate safety and manufacturability. As a result, industries with high-cost, high-performance products are currently best positioned to justify the extra design, testing, and manufacturing expense. Overall, plastic prototypes are mainly useful for visualization, while metal printing is often required to fully capture the performance benefits of generative design.
 
 ##### References
 
-Additive Manufacturing. (n.d.).
-https://www.additivemanufacturing.media/news/gm-seat-bracket-made-with-autodesk-generative-design-software
+Additive Manufacturing. (n.d.). GM seat bracket made with Autodesk generative design software. https://www.additivemanufacturing.media/news/gm-seat-bracket-made-with-autodesk-generative-design-software
 
 ##### Additional Information
 
 Printed CAD model (AlSi10Mg outcome printed in nylon) 
 
-[link: https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811b26aee7468595515]
+<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811b26aee7468595515" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 Printed Assembly 
 
-[assets/GDv4alum.png]
+![Printed Assembly]({{ '/assets/GDv4alum.png' | relative_url }})
