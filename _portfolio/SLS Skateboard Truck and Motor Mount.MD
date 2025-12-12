@@ -2,7 +2,7 @@
 title: "SLS Skateboard Truck and Motor Mount"
 excerpt: "Generative-designed skateboard truck and motor mount comparing nylon (pSLS) and aluminum (AlSi10Mg) SLS outcomes under realistic load cases."
 header: 
-  teaser: assets/img/GDv4(1).png
+  teaser: assets/img/GDv5alum.png
 ---
 
 Powder bed fusion (PBF) is an additive manufacturing technology that builds parts layer by layer by fusing powder with a high-powered laser. Selective laser sintering (SLS) is a subset of PBF that can print plastics (nylon) or metals (aluminum, steel, etc.). Although the methodology is similar, metal printing (mSLS) is much more stringent in its operating conditions than nylon printing (pSLS). 
