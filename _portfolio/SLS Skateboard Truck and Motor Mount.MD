@@ -9,7 +9,7 @@ Powder bed fusion (PBF) is an additive manufacturing technology that builds part
 
 ##### Nylon assembly 						Aluminum assembly (AlSi10Mg)
 
-![Nylon Assembly]({{ '/assets/GDv5nylon.png' | relative_url }})					![Aluminum Assembly]({{ '/assets/GDv5alum.png' | relative_url }})
+![Nylon Assembly]({{ '/assets/img/GDv5nylon.png' | relative_url }})					![Aluminum Assembly]({{ '/assets/img/GDv5alum.png' | relative_url }})
 
 3D printing and generative design work hand in hand: generative design creates organic geometries and nontraditional structures, and 3D printing makes it possible to manufacture them at a marketable cost without traditional tooling. There have been multiple applications in the automotive industry, especially since the partnership between General Motors and Autodesk. In 2018, General Motors redesigned a seat bracket from eight separate components into a single component using generative design and manufactures the part by 3D printing [1]. The new part is 40% lighter and 20% stronger than the original, showcasing the strengths of this combination of technologies, specifically in performance and part consolidation. 
 
@@ -53,4 +53,4 @@ Printed CAD model (AlSi10Mg outcome printed in nylon)
 
 Printed Assembly 
 
-![Printed Assembly]({{ '/assets/GDv4alum.png' | relative_url }})
+![Printed Assembly]({{ '/assets/img/GDv4alum.png' | relative_url }})
