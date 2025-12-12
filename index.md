@@ -26,6 +26,10 @@ feature_row:
     alt: "Bike Phone Holder"
     title: "Bike Phone Holder"
     excerpt: "3D-printed bike-mount phone holder featuring a spring-loaded detent rotation mechanism."
+  - image_path: "/assets/img/GDv5alum.png"
+    alt: "SLS Skateboard Truck and Motor Mount"
+    title: "SLS Skateboard Truck and Motor Mount"
+    excerpt: "Generative-designed skateboard truck and motor mount comparing nylon (pSLS) and aluminum (AlSi10Mg) SLS outcomes under realistic load cases."
 ---
 
 {% include feature_row %}
