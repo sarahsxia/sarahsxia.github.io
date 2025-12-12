@@ -25,7 +25,7 @@ Three materials were explored using the unrestricted manufacturing method in Fus
 
 ##### Prototype – Aluminum outcome printed in nylon
 
-![Prototype view 1]({{ '/assets/img/GDv4(1).png' | relative_url }}) ![Prototype view 2]({{ '/assets/img/GDv4(2).png' | relative_url }}) ![Prototype view 2]({{ '/assets/img/GDv4(2).png' | relative_url }})
+![Prototype view 1]({{ '/assets/img/GDv4(1).png' | relative_url }}) ![Prototype view 2]({{ '/assets/img/GDv4(2).png' | relative_url }}) ![Prototype view 3]({{ '/assets/img/GDv4(3).png' | relative_url }})
 
 My printed prototype is the metal version of that iteration, as a mockup of the manufactured part. However, the pictured part did not fit on the truck, so the final iteration is different, mainly in the centerpiece placement. Originally, the centerpiece was aligned with the pivot cup center; now it is shifted forward with a larger inner cutout. This change lets the part sit in the pivot cup and swing over the kingpin, which the earlier, smaller cutout and original location did not allow. 
 
